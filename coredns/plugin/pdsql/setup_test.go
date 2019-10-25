@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func TestSetupWhoami(t *testing.T) {
